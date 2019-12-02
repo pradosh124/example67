@@ -1,0 +1,29 @@
+{
+  "name": "tapsearch",
+  "version": "1.0.0",
+  "description": "Searching Tool",
+  "main": "index.js",
+  "scripts": {
+   "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pradosh124/example67.git"
+  },
+  "keywords": [
+    "tapsearch",
+    "prathameshmore"
+  ],
+  "author": "Prathamesh More",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pradosh124/example67/issues"
+  },
+  "homepage": "https://github.com/pradosh124/example67#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.12"
+  }
+}
