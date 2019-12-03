@@ -41,37 +41,51 @@ Headers
 Content-Type : application/json
 
 HTTP method
+
 POST
+
 {
+    
     "paragraphs" : string
+    
 }
 Response
 {
+
     "message": string
+    
 }
 Search words in paragraphs
 Given a word, search for it and retrieve the top 10 paragraphs (Documents) that contain it.
 
 Request
+
 https://example67.herokuapp.com/home/search
 
 Headers
 Content-Type : application/json
 
 HTTP method
+
 POST
+
 {
+
     "query" : string
+    
 }
 Response
+
 {
     "paragraphs": {
         "tags" : array,
         "_id" : string,
         "text" : string,
+        
     }
 }
 Remove paragraphs
+
 Clear the index and all indexed documents.
 
 Request
@@ -82,7 +96,9 @@ Content-Type : application/json
 
 HTTP method
 GET
+
 Response
+
 {
     "message": string
 }
